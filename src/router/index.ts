@@ -56,6 +56,16 @@ const routes = [
     path: '/star',
     name: 'star',
     component: () => import('../views/StarRatingView.vue')
+  },
+  {
+    path: '/toolbar',
+    name: 'toolbar',
+    component: () => import('../views/ToolbarView.vue')
+  },
+  {
+    path: '/notifiche',
+    name: 'notifiche',
+    component: () => import('../views/NotificheView.vue')
   }
 ];
 

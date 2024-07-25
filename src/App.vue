@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue';
 import { RouterLink, RouterView } from 'vue-router';
 import HelloWorld from './components/HelloWorld.vue';
 import Button from 'primevue/button';
+import Toast from 'primevue/toast';
 
 
 const darkMode = ref(false);
@@ -41,11 +42,14 @@ onMounted(() => {
           <RouterLink to="/fetch">Fetch</RouterLink>
           <RouterLink to="/fetch2">Ricerca Pkmn</RouterLink>
           <RouterLink to="/star">Star Rating</RouterLink>
+          <RouterLink to="/toolbar">Toolbar</RouterLink>
+          <RouterLink to="/notifiche">Notifiche</RouterLink>
         </nav>
       </div>
     </header>
     
     <RouterView />
+    <Toast />
   </div>
 </template>
 
