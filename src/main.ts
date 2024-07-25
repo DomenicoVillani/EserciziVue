@@ -10,6 +10,7 @@ import 'primeicons/primeicons.css';  // Icone PrimeVue
 
 const app = createApp(App)
 
+
 app.use(router)
 app.use(PrimeVue)
 app.use(ToastService);  // Registra il ToastService
