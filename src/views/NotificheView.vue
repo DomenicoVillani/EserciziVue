@@ -12,7 +12,6 @@ const show = () => {
     valuenotifiche.value++;
     sessionStorage.setItem('notificationsCount', valuenotifiche.value.toString());
 };
-
 const loadNotificationsCount = () => {
     const savedCount = sessionStorage.getItem('notificationsCount');
     if (savedCount !== null) {
@@ -21,15 +20,15 @@ const loadNotificationsCount = () => {
         valuenotifiche.value = 0;
     }
 };
-
 onMounted(() => {
     loadNotificationsCount();
 });
+
 </script>
 
 <template>
     <div>
-        <Button label="Inviami una notifica" @click="show"/>
+        <Button label="Inviami una notifica" @click="show" />
         <p>Notifiche ricevuto: {{ valuenotifiche }}</p>
     </div>
 </template>

@@ -66,6 +66,31 @@ const routes = [
     path: '/notifiche',
     name: 'notifiche',
     component: () => import('../views/NotificheView.vue')
+  },
+  {
+    path: '/modal',
+    name: 'modal',
+    component: () => import('../views/ModalView.vue')
+  },
+  {
+    path: '/chart',
+    name: 'chart',
+    component: () => import('../views/ChartView.vue')
+  },
+  {
+    path: '/spesa',
+    name: 'spesa',
+    component: () => import('../views/CarrelloSpesaView.vue')
+  },
+  {
+    path: '/crud',
+    name: 'crud',
+    component: () => import('../views/CrudView.vue')
+  },
+  {
+    path: '/quiz',
+    name: 'quiz',
+    component: () => import('../views/QuizView.vue')
   }
 ];
 

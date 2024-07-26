@@ -44,6 +44,11 @@ onMounted(() => {
           <RouterLink to="/star">Star Rating</RouterLink>
           <RouterLink to="/toolbar">Toolbar</RouterLink>
           <RouterLink to="/notifiche">Notifiche</RouterLink>
+          <RouterLink to="/modal">Modal</RouterLink>
+          <RouterLink to="/chart">Chart</RouterLink>
+          <RouterLink to="/spesa">Spesa</RouterLink>
+          <RouterLink to="/crud">Crud</RouterLink>
+          <RouterLink to="/quiz">Quiz</RouterLink>
         </nav>
       </div>
     </header>
